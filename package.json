@@ -1,0 +1,16 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "description": "A program that moves robots around a given grid based on given movements",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha 'test/**/*.js'"
+  },
+  "author": "Morgan Mahan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
